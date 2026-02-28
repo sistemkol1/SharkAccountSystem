@@ -1,0 +1,11 @@
+{
+  "subs": [],
+  "items": [],
+  "enableSubs": true,
+  "enableItems": true,
+  "ignoreBlacklist": false,
+  "delaySubs": 500,
+  "delayItems": 500,
+  "delayBetween": 1000,
+  "threadsPerProxy": 1
+}

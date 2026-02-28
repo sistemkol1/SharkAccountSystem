@@ -1,0 +1,39 @@
+# ── Аккаунты и чувствительные данные ──────────────────────────────────────
+data.db
+accs.txt
+config.json
+
+# ── Steam sensitive files ───────────────────────────────────────────────────
+mafs/
+avatars/
+
+# ── Логи операций (содержат данные аккаунтов) ──────────────────────────────
+items_success.txt
+subs_success.txt
+subs_blacklist.txt
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Node.js ────────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Сборка ─────────────────────────────────────────────────────────────────
+build/
+dist/
+installer_output/
+installer_output.zip
+
+# ── IDE ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+node/ 
+package-lock.json 
+icon_preview_new.png 
+get_accs_with_identity.py 

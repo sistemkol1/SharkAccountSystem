@@ -1,0 +1,4 @@
+# Формат: login:password:shared_secret(необязательно)
+# Пример:
+# mylogin:mypassword123
+# mylogin2:mypassword456:AAAA1234BBBB5678CCCC==
