@@ -9,6 +9,10 @@ logger = logging.getLogger(__name__)
 
 class DataBase:
     def __init__(self, database):
+        import os
+        db_dir = os.path.dirname(database)
+        if db_dir:
+            os.makedirs(db_dir, exist_ok=True)
         self.__db = sqlite3.connect(database, check_same_thread=False)
         self.__db.row_factory = sqlite3.Row
         self.__db.execute("PRAGMA foreign_keys = ON")
